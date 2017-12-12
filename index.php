@@ -23,4 +23,6 @@ echo substr_count($date, '/')." ";
 echo "times. <br>"; 
 echo "At positions: ";
 echo strpos($date, '/'), ", ", strrpos($date, '/')."<br>";
+echo "<b>Question 5</b><br>";
+echo 'Number of words in $date: ', str_word_count($date)."<br>";
 ?>

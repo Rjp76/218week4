@@ -34,4 +34,14 @@ echo "last 2 char of $date: ", substr($date, -2, 2)."<br>";
 echo "<b>Question 9</b><br>";
 split('/', $date);
 echo $date."<br>";
+echo "<b>Question 10</b><br>";
+echo "The value of \$year: ";
+print_r($year);
+foreach ($year as $value) {
+	if ($value % 4 == 0) {
+		echo "True ";
+	} else {
+		echo "False ";
+	}
+}
 ?>

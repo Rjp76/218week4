@@ -29,4 +29,6 @@ echo "<b>Question 6</b><br>";
 echo "length of 'The quick brown fox jumps over the lazy dog.': ", strlen("The quick brown fox jumps over the lazy dog.")."<br>";
 echo "<b>Question 7</b><br>";
 echo "ASCII value of first character of 'hello': ", ord("hello")."<br>";
+echo "<b>Question 8</b><br>";
+echo "last 2 char of $date: ", substr($date, -2, 2)."<br>"; 
 ?>

@@ -26,5 +26,5 @@ echo strpos($date, '/'), ", ", strrpos($date, '/')."<br>";
 echo "<b>Question 5</b><br>";
 echo 'Number of words in $date: ', str_word_count($date)."<br>";
 echo "<b>Question 6</b><br>";
-echo "length of 'Hello Class': ", strlen("Hello Class")."<br>";
+echo "length of 'The quick brown fox jumps over the lazy dog.': ", strlen("The quick brown fox jumps over the lazy dog.")."<br>";
 ?>
